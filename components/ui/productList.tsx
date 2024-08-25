@@ -5,7 +5,7 @@ import ProductCard from "./productCard";
 
 import products from "@/data/products";
 
-const ProductList = async () => {
+const ProductList = () => {
   // const orm = await MikroORM.init(config);
   // const products = await orm?.em.find(Product, {});
   // console.log(products);

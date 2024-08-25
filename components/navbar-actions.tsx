@@ -1,10 +1,10 @@
 "use client";
-import { useCartStore } from "@/app/store";
-
+import React from "react";
 import { Button } from "@nextui-org/button";
 import { Link } from "@nextui-org/link";
 import { ShoppingBag } from "lucide-react";
-import React from "react";
+
+import { useCartStore } from "@/app/store";
 
 const NavbarActions = () => {
   const items = useCartStore((state) => state.items);
