@@ -14,7 +14,7 @@ const getORM = async () => {
   }
 
   return global.__MikroORM__;
-};f
+};
 
 const withORM =
   (handler: NextApiHandler) =>
