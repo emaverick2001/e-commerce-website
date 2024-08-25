@@ -9,8 +9,8 @@ const config: Options<SqliteDriver> = {
   dbName: "db.sqlite",
   driver: SqliteDriver,
   entities: [Product, Cart],
-  debug: true,
   extensions: [SeedManager],
+  debug: true,
 };
 
 export default config;

@@ -1,12 +1,12 @@
 import "@/styles/globals.css";
 import { Link } from "@nextui-org/link";
 import clsx from "clsx";
+import { Toaster } from "react-hot-toast";
 
 import { Providers } from "./providers";
 
 import { fontSans } from "@/config/fonts";
 import { Navbar } from "@/components/navbar";
-import { ToastBar, Toaster } from "react-hot-toast";
 
 export default function RootLayout({
   children,
@@ -14,18 +14,18 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html suppressHydrationWarning lang="en">
+    <html suppressHydrationWarning lang="en" className="light">
       <head />
       <body
         className={clsx(
           "light min-h-screen font-sans antialiased",
-          fontSans.variable,
+          fontSans.variable
         )}
       >
         <Providers themeProps={{ attribute: "class", defaultTheme: "light" }}>
-          <div className="light relative flex flex-col h-screen">
+          <div className="relative flex flex-col h-screen">
             <Navbar />
-            <main className="light text-foreground bg-background container mx-auto max-w-7xl pt-16 px-6 flex-grow">
+            <main className="light container mx-auto max-w-7xl pt-16 px-6 flex-grow bg-white">
               {children}
             </main>
             <footer className="w-full flex items-center justify-center py-3">
