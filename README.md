@@ -84,6 +84,8 @@ Create a `.env` file in the root of the project and add the following environmen
 DATABASE_URL="sqlite://./db.sqlite"
 ```
 
+notes: I was having trouble setting up mikro-orm and querying the database so the backend is not fully functional. I will continue to work on this project and update it as I learn more about mikro-orm and databases.
+
 ## License
 
 Licensed under the [MIT license](https://github.com/nextui-org/next-app-template/blob/main/LICENSE).
