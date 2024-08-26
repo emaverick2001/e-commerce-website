@@ -2,7 +2,7 @@
 
     This is a simple e-commerce website built using Next.js, NextUI, and Tailwind CSS. The project demonstrates a basic setup for an online store with product listings and a shopping cart.
     
-deployment: https://e-commerce-website-xi-six.vercel.app
+deployment: [https://e-commerce-website-xi-six.vercel.app](https://e-commerce-website-xi-six.vercel.app/)
 
 ## Table of Contents
 
